@@ -1,0 +1,128 @@
+.packages
+  padding: 40px 0 70px 0
+  &__title
+    margin: 0 0 65px
+    font-style: normal
+    font-weight: bold
+    font-size: 36px
+    line-height: 45px
+    text-align: center
+    text-transform: uppercase
+  &-wrapper
+    display: grid
+    column-gap: 30px
+    row-gap: 30px
+    grid-template-columns: repeat(3, 350px)
+    grid-template-rows: repeat(2, 500px)
+  &__stars
+    margin-bottom: 5px
+  &__description
+    margin: 0 0 34px
+    font-style: normal
+    font-weight: normal
+    font-size: 14px
+    line-height: 160.6%
+  &-booking
+    &__description
+      font-style: normal
+      font-weight: normal
+      font-size: 12px
+      line-height: 15px
+    &__icon
+      width: 14px
+      height: 14px
+      margin-right: 14px
+    &__text
+      margin-bottom: 11px
+      display: flex
+      align-items: center
+    &__room
+      margin-bottom: 31px
+      &__first
+        margin-bottom: 44px
+    &__price
+      display: flex
+      align-items: center
+      justify-content: space-between
+      position: relative
+    &__pricetag
+      font-style: normal
+      font-weight: bold
+      font-size: 24px
+      line-height: 30px
+    &__oldpricetag
+      position: absolute
+      left: 0
+      top: -23px
+      font-style: normal
+      font-weight: normal
+      font-size: 14px
+      line-height: 18px
+      text-decoration-line: line-through
+  &-card
+    color: $light
+    border-radius: 8px
+    overflow: hidden
+    position: relative
+    display: flex
+    grid-column-start: span 1
+    flex-direction: column-reverse
+    &:nth-child(1)
+      grid-column-start: span 2
+      justify-content: flex-end
+      flex-direction: row
+    &__image
+      position: absolute
+      left: 0
+      right: 0
+      top: 0
+      bottom: 0
+      width: 100%
+      height: 50%
+      object-fit: cover
+      &__first
+        width: 50%
+        height: 100%
+    &__title
+      margin: 0 0 23px
+      text-align: left
+      font-style: normal
+      font-weight: bold
+      font-size: 18px
+      line-height: 23px
+      &__first
+        margin-bottom: 27px
+    &__button
+      font-style: normal
+      font-weight: 600
+      font-size: 14px
+      line-height: 19px
+      padding: 10px 26px
+      border: none
+      background-color: $primary
+      border-radius: 4px
+      cursor: pointer
+  &-right
+    display: flex
+    flex-direction: column
+    background-color: $dark
+    height: 50%
+    padding: 30px 21px 25px 32px
+    &__first
+      min-height: 100%
+      width: 50%
+      padding: 46px 21px 30px 44px
+  &__offer
+    position: absolute
+    left: 0
+    top: 26px
+    border-radius: 0 4px 4px 0
+    padding: 4px 9px
+    font-size: 8px
+    line-height: 10px
+    font-style: normal
+    font-weight: 600
+    &__first
+      padding: 7px 11px
+      font-size: 12px
+      line-height: 15px

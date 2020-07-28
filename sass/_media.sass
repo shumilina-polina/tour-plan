@@ -18,6 +18,14 @@
   .card
     width: 230px
     height: 230px
+  .packages
+    &-wrapper
+      column-gap: 10px
+      row-gap: 10px
+      grid-template-columns: repeat(3, 1fr)
+    &__description
+      &__first
+        font-size: 13px
 @media ( max-width: 992px)
   .container, 
   .newsletter-wrapper
@@ -64,6 +72,10 @@
   .card
     width: 340px
     height: 255px
+  .packages
+    &-wrapper
+      grid-template-rows: repeat(3, 500px)
+      grid-template-columns: repeat(2, 1fr)
 @media ( max-width: 768px)
   .container
     max-width: 576px
@@ -142,6 +154,20 @@
   .card
     width: 48.3%
     height: 255px
+  .packages
+    &-wrapper
+      grid-template-rows: repeat(5, 1fr)
+      grid-template-columns: 1fr
+      flex-wrap: wrap
+      column-gap: 0px
+      row-gap: 20px
+    &-right
+      &__first
+        min-height: 100%
+        width: 70%
+    &-card
+      &:nth-child(1)
+        grid-column-start: span 1
 @media (max-width: 576px)
   .logo
     width: 99px
@@ -176,5 +202,7 @@
       font-size: 18px
       line-height: 23px
       margin-bottom: 36px
-
-  
+  .packages
+    &-right
+      &__first
+        width: 80%
