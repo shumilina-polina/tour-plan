@@ -39,12 +39,18 @@ $(document).ready(function () {
   var closeModalButton = $(".modal__close");
   modalButton.on("click", openModal);
   closeModalButton.on("click", closeModal);
+  $(document).keydown(function (eventObject) {
+    if (eventObject.which == 27) {
+      closeModal(event);
+    }
+  });
   function openModal() {
     var targetModal = $(this).attr("data-href");
     $(targetModal).find(".modal__overlay").addClass("modal__overlay--visible");
     $(targetModal).find(".modal__dialog").addClass("modal__dialog--visible");
   }
-  function closeModal() {
+  function closeModal(event) {
+    event.preventDefault();
     var modalOverlay = $(".modal__overlay");
     var modalDialog = $(".modal__dialog");
     modalOverlay.removeClass("modal__overlay--visible");
