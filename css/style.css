@@ -61,6 +61,8 @@ img {
 .invalid {
   color: #EC1F46;
   border-bottom: 1px solid #EC1F46;
+  -webkit-animation: shakeX 1s;
+          animation: shakeX 1s;
 }
 
 .invalid::-webkit-input-placeholder {

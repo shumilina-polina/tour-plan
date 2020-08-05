@@ -11,6 +11,10 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="css/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="css/aos.css" />
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"/>
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
@@ -25,7 +29,10 @@
             />
           </a>
 
-          <form action="#" class="search navbar__search navbar__search--mobile--hidden">
+          <form
+            action="#"
+            class="search navbar__search navbar__search--mobile--hidden"
+          >
             <input
               type="text"
               class="search__input"
@@ -58,7 +65,10 @@
         <div class="container">
           <ul class="navbar-menu">
             <li class="navbar-menu__item navbar-menu__item--mobile--visible">
-              <a href="#" class="user navbar__user navbar__user--mobile--visible">
+              <a
+                href="#"
+                class="user navbar__user navbar__user--mobile--visible"
+              >
                 <img
                   src="img/user-avatar.jpeg"
                   alt="Avatar: Nathan"
@@ -69,7 +79,10 @@
               <!-- /.user -->
             </li>
             <li class="navbar-menu__item navbar-menu__item--mobile--visible">
-              <form action="#" class="search navbar__search navbar__search--mobile--visible">
+              <form
+                action="#"
+                class="search navbar__search navbar__search--mobile--visible"
+              >
                 <input
                   type="text"
                   class="search__input"
@@ -147,7 +160,11 @@
             </p>
           </div>
           <!-- /.hotel-info__text -->
-          <div data-toggle="modal" data-href="#rating-modal" class="rating hotel-info__rating">
+          <div
+            data-toggle="modal"
+            data-href="#rating-modal"
+            class="rating hotel-info__rating"
+          >
             <span class="rating__text">User Rattings</span>
             <span class="rating__counter">4.5/5</span>
           </div>
@@ -208,7 +225,7 @@
           <!-- /.swiper-container -->
 
           <div class="hotel-right">
-            <div class="booking">
+            <div class="booking" data-aos="flip-left" data-aos-delay="400">
               <div class="booking__info">
                 <div class="booking__price">
                   <span class="booking__start">price starts as</span>
@@ -247,7 +264,13 @@
                 </a>
               </div>
               <!-- /.booking__call-center -->
-              <button data-toggle="modal" data-href="#booking-modal" class="button booking__button">View Other Options</button>
+              <button
+                data-toggle="modal"
+                data-href="#booking-modal"
+                class="button booking__button"
+              >
+                View Other Options
+              </button>
             </div>
             <!-- /.booking -->
             <div class="map">
@@ -274,8 +297,10 @@
       <div class="container">
         <h2 class="packages__title">Other Packages</h2>
         <div class="packages-wrapper">
-          <div class="packages-card">
-            <span class="offer packages__offer packages__offer__first">Flash Offer</span>
+          <div class="packages-card" data-aos="zoom-in" data-aos-delay="300">
+            <span class="offer packages__offer packages__offer__first"
+              >Flash Offer</span
+            >
             <img
               src="img/packages-card-1.jpeg"
               alt="Hotel Blue Haven"
@@ -289,13 +314,15 @@
                 <img src="img/star.svg" alt="star" />
                 <img src="img/star.svg" alt="star" />
               </div>
-              <h3 class="packages-card__title packages-card__title__first">Hotel Blue Haven</h3>
+              <h3 class="packages-card__title packages-card__title__first">
+                Hotel Blue Haven
+              </h3>
               <p class="packages__description packages__description__first">
                 Aute quis duis excepteur excepteur ipsum cat eiusmod consectetur
-                enim laborum magna llit. Ipsum est fugiat velit ea llamco do esse
-                ut in veniam sun in onsequat. Aute quis duis epteur excepteur
-                ipsum occaecat eiusmod nsectetur enim laborum magna mollit. Ipsum
-                est fugiat velit ea ullamco do
+                enim laborum magna llit. Ipsum est fugiat velit ea llamco do
+                esse ut in veniam sun in onsequat. Aute quis duis epteur
+                excepteur ipsum occaecat eiusmod nsectetur enim laborum magna
+                mollit. Ipsum est fugiat velit ea ullamco do
               </p>
               <div class="packages-booking__room packages-booking__room__first">
                 <div class="packages-booking__text">
@@ -315,9 +342,7 @@
                     alt="Icon: user"
                     class="packages-booking__icon"
                   />
-                  <span class="packages-booking__description"
-                    >2 x Guests</span
-                  >
+                  <span class="packages-booking__description">2 x Guests</span>
                 </div>
                 <!-- /.booking__text -->
                 <div class="packages-booking__text">
@@ -332,20 +357,21 @@
               </div>
               <!-- /.booking__room -->
               <div class="packages-booking__price">
-                <strong class="packages-booking__pricetag packages-booking__oldpricetag"
+                <strong
+                  class="packages-booking__pricetag packages-booking__oldpricetag"
                   >$ 10,500</strong
                 >
-                <strong class="packages-booking__pricetag"
-                  >$ 8,500</strong
-                >
-                <button class="card__button packages-card__button">Book Now</button>
+                <strong class="packages-booking__pricetag">$ 8,500</strong>
+                <button class="card__button packages-card__button">
+                  Book Now
+                </button>
               </div>
-                <!-- /.booking__price -->
+              <!-- /.booking__price -->
             </div>
             <!-- /.packages-right -->
           </div>
           <!-- /.card 1 -->
-          <div class="packages-card">
+          <div class="packages-card" data-aos="zoom-in" data-aos-delay="450">
             <span class="offer packages__offer">Flash Offer</span>
             <img
               src="img/packages-card-2.jpeg"
@@ -372,9 +398,7 @@
                     alt="Icon: user"
                     class="packages-booking__icon"
                   />
-                  <span class="packages-booking__description"
-                    >2 x Guests</span
-                  >
+                  <span class="packages-booking__description">2 x Guests</span>
                 </div>
                 <!-- /.booking__text -->
                 <div class="packages-booking__text">
@@ -389,20 +413,21 @@
               </div>
               <!-- /.booking__room -->
               <div class="packages-booking__price">
-                <strong class="packages-booking__pricetag packages-booking__oldpricetag"
+                <strong
+                  class="packages-booking__pricetag packages-booking__oldpricetag"
                   >$ 8,500</strong
                 >
-                <strong class="packages-booking__pricetag"
-                  >$ 3,500</strong
-                >
-                <button class="card__button packages-card__button">Book Now</button>
+                <strong class="packages-booking__pricetag">$ 3,500</strong>
+                <button class="card__button packages-card__button">
+                  Book Now
+                </button>
               </div>
-                <!-- /.booking__price -->
+              <!-- /.booking__price -->
             </div>
             <!-- /.packages-right -->
           </div>
           <!-- /.card 2 -->
-          <div class="packages-card">
+          <div class="packages-card" data-aos="zoom-in" data-aos-delay="300">
             <span class="offer packages__offer">Flash Offer</span>
             <img
               src="img/packages-card-3.jpeg"
@@ -429,9 +454,7 @@
                     alt="Icon: user"
                     class="packages-booking__icon"
                   />
-                  <span class="packages-booking__description"
-                    >2 x Guests</span
-                  >
+                  <span class="packages-booking__description">2 x Guests</span>
                 </div>
                 <!-- /.booking__text -->
                 <div class="packages-booking__text">
@@ -446,20 +469,21 @@
               </div>
               <!-- /.booking__room -->
               <div class="packages-booking__price">
-                <strong class="packages-booking__pricetag packages-booking__oldpricetag"
+                <strong
+                  class="packages-booking__pricetag packages-booking__oldpricetag"
                   >$ 10,500</strong
                 >
-                <strong class="packages-booking__pricetag"
-                  >$ 9,500</strong
-                >
-                <button class="card__button packages-card__button">Book Now</button>
+                <strong class="packages-booking__pricetag">$ 9,500</strong>
+                <button class="card__button packages-card__button">
+                  Book Now
+                </button>
               </div>
-                <!-- /.booking__price -->
+              <!-- /.booking__price -->
             </div>
             <!-- /.packages-right -->
           </div>
           <!-- /.card 3 -->
-          <div class="packages-card">
+          <div class="packages-card" data-aos="zoom-in" data-aos-delay="450">
             <span class="offer packages__offer">Flash Offer</span>
             <img
               src="img/packages-card-4.jpeg"
@@ -486,9 +510,7 @@
                     alt="Icon: user"
                     class="packages-booking__icon"
                   />
-                  <span class="packages-booking__description"
-                    >2 x Guests</span
-                  >
+                  <span class="packages-booking__description">2 x Guests</span>
                 </div>
                 <!-- /.booking__text -->
                 <div class="packages-booking__text">
@@ -503,20 +525,21 @@
               </div>
               <!-- /.booking__room -->
               <div class="packages-booking__price">
-                <strong class="packages-booking__pricetag packages-booking__oldpricetag"
+                <strong
+                  class="packages-booking__pricetag packages-booking__oldpricetag"
                   >$ 4,500</strong
                 >
-                <strong class="packages-booking__pricetag"
-                  >$ 2,500</strong
-                >
-                <button class="card__button packages-card__button">Book Now</button>
+                <strong class="packages-booking__pricetag">$ 2,500</strong>
+                <button class="card__button packages-card__button">
+                  Book Now
+                </button>
               </div>
-                <!-- /.booking__price -->
+              <!-- /.booking__price -->
             </div>
             <!-- /.packages-right -->
           </div>
           <!-- /.card 4 -->
-          <div class="packages-card">
+          <div class="packages-card" data-aos="zoom-in" data-aos-delay="600">
             <span class="offer packages__offer">Flash Offer</span>
             <img
               src="img/packages-card-5.jpeg"
@@ -543,9 +566,7 @@
                     alt="Icon: user"
                     class="packages-booking__icon"
                   />
-                  <span class="packages-booking__description"
-                    >2 x Guests</span
-                  >
+                  <span class="packages-booking__description">2 x Guests</span>
                 </div>
                 <!-- /.booking__text -->
                 <div class="packages-booking__text">
@@ -560,15 +581,16 @@
               </div>
               <!-- /.booking__room -->
               <div class="packages-booking__price">
-                <strong class="packages-booking__pricetag packages-booking__oldpricetag"
+                <strong
+                  class="packages-booking__pricetag packages-booking__oldpricetag"
                   >$ 5,500</strong
                 >
-                <strong class="packages-booking__pricetag"
-                  >$ 3,500</strong
-                >
-                <button class="card__button packages-card__button">Book Now</button>
+                <strong class="packages-booking__pricetag">$ 3,500</strong>
+                <button class="card__button packages-card__button">
+                  Book Now
+                </button>
               </div>
-                <!-- /.booking__price -->
+              <!-- /.booking__price -->
             </div>
             <!-- /.packages-right -->
           </div>
@@ -585,11 +607,18 @@
       data-image-src="img/newsletter-bg.jpg"
     >
       <div class="newsletter-wrapper">
-        <h2 class="newsletter-title newsletter__title">
+        <h2 class="newsletter-title newsletter__title" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
           subscribe to our
           <span class="newsletter-title__strong">Newsletter</span>
         </h2>
-        <form action="send.php" method="POST" class="subscribe newsletter__subscribe form">
+        <form
+          action="send.php"
+          method="POST"
+          class="subscribe newsletter__subscribe form"
+          data-aos="fade-left" 
+          data-aos-offset="300" 
+          data-aos-easing="ease-in-sine"
+        >
           <input
             type="email"
             class="subscribe__input"
@@ -727,7 +756,7 @@
       <div class="container">
         <h2 class="activities__title">Other Activities</h2>
         <div class="activities-wrapper">
-          <div class="card activities__card">
+          <div class="card activities__card" data-aos="fade-up" data-aos-duration="1000">
             <img
               src="img/activity-1.jpg"
               alt="The curious corner of chamarel"
@@ -737,7 +766,7 @@
             <button class="card__button">Book Now</button>
           </div>
           <!-- /.card -->
-          <div class="card activities__card">
+          <div class="card activities__card" data-aos="fade-up" data-aos-duration="1000"data-aos="fade-up" data-aos-duration="1000">
             <img
               src="img/activity-2.jpg"
               alt="Gymkhana club golf course"
@@ -747,7 +776,7 @@
             <button class="card__button">Book Now</button>
           </div>
           <!-- /.card -->
-          <div class="card activities__card">
+          <div class="card activities__card" data-aos="fade-up" data-aos-duration="1000">
             <img
               src="img/activity-3.jpg"
               alt="Tamarind falls hiking trip - full day"
@@ -757,7 +786,7 @@
             <button class="card__button">Book Now</button>
           </div>
           <!-- /.card -->
-          <div class="card activities__card">
+          <div class="card activities__card" data-aos="fade-up" data-aos-duration="1000">
             <img
               src="img/activity-4.jpg"
               alt="The blue marine discovery quest"
@@ -775,39 +804,79 @@
     <footer class="footer">
       <div class="container">
         <div class="footer-wrapper">
-          <img src="img/vertical-logo.svg" alt="Logo: Best Tour Plan" class="logo footer__logo">
+          <img
+            src="img/vertical-logo.svg"
+            alt="Logo: Best Tour Plan"
+            class="logo footer__logo"
+          />
           <div class="footer__list footer__categories">
             <h3 class="footer__title">All Categories</h3>
             <ul class="footer__ul">
-              <li class="footer__item"><a href="#" class="footer__link">All Deals</a></li>
-              <li class="footer__item"><a href="#" class="footer__link">Hotels</a></li>
-              <li class="footer__item"><a href="#" class="footer__link">Activities</a></li>
-              <li class="footer__item"><a href="#" class="footer__link">Spa Packages</a></li>
-              <li class="footer__item"><a href="#" class="footer__link">Hotel Day Packages</a></li>
-              <li class="footer__item"><a href="#" class="footer__link">Restaurants</a></li>
-              <li class="footer__item"><a href="#" class="footer__link">Fitness</a></li>
-              <li class="footer__item"><a href="#" class="footer__link">Rodrigues</a></li>
+              <li class="footer__item">
+                <a href="#" class="footer__link">All Deals</a>
+              </li>
+              <li class="footer__item">
+                <a href="#" class="footer__link">Hotels</a>
+              </li>
+              <li class="footer__item">
+                <a href="#" class="footer__link">Activities</a>
+              </li>
+              <li class="footer__item">
+                <a href="#" class="footer__link">Spa Packages</a>
+              </li>
+              <li class="footer__item">
+                <a href="#" class="footer__link">Hotel Day Packages</a>
+              </li>
+              <li class="footer__item">
+                <a href="#" class="footer__link">Restaurants</a>
+              </li>
+              <li class="footer__item">
+                <a href="#" class="footer__link">Fitness</a>
+              </li>
+              <li class="footer__item">
+                <a href="#" class="footer__link">Rodrigues</a>
+              </li>
             </ul>
           </div>
           <!-- /.footer__list -->
           <div class="footer__list footer__additional">
             <h3 class="footer__title">Additional Information</h3>
             <ul class="footer__ul">
-              <li class="footer__item"><a href="#" class="footer__link">About Us</a></li>
-              <li class="footer__item"><a href="#" class="footer__link">Contact Us</a></li>
-              <li class="footer__item"><a href="#" class="footer__link">How does it work?</a></li>
-              <li class="footer__item"><a href="#" class="footer__link">Frequently Asked Questions</a></li>
-              <li class="footer__item"><a href="#" class="footer__link">Deals.mu loyalty program</a></li>
-              <li class="footer__item"><a href="#" class="footer__link"> Promote your Business on BTP</a></li>
+              <li class="footer__item">
+                <a href="#" class="footer__link">About Us</a>
+              </li>
+              <li class="footer__item">
+                <a href="#" class="footer__link">Contact Us</a>
+              </li>
+              <li class="footer__item">
+                <a href="#" class="footer__link">How does it work?</a>
+              </li>
+              <li class="footer__item">
+                <a href="#" class="footer__link">Frequently Asked Questions</a>
+              </li>
+              <li class="footer__item">
+                <a href="#" class="footer__link">Deals.mu loyalty program</a>
+              </li>
+              <li class="footer__item">
+                <a href="#" class="footer__link">
+                  Promote your Business on BTP</a
+                >
+              </li>
             </ul>
           </div>
           <!-- /.footer__list -->
           <div class="footer__social-network">
             <h3 class="footer__title footer__title--inline">Social Network</h3>
             <div class="footer__social-links">
-              <a href="#" class="footer__link"><img src="img/facebook.svg" alt="Icon: facebook"></a>
-              <a href="#" class="footer__link"><img src="img/youtube.svg" alt="Icon: youtube"></a>
-              <a href="#" class="footer__link"><img src="img/instagram.svg" alt="Icon: instagram"></a>
+              <a href="#" class="footer__link"
+                ><img src="img/facebook.svg" alt="Icon: facebook"
+              /></a>
+              <a href="#" class="footer__link"
+                ><img src="img/youtube.svg" alt="Icon: youtube"
+              /></a>
+              <a href="#" class="footer__link"
+                ><img src="img/instagram.svg" alt="Icon: instagram"
+              /></a>
             </div>
             <!-- /.footer__social-links -->
           </div>
@@ -815,36 +884,60 @@
           <div class="footer__list footer__legal">
             <h3 class="footer__title">Legal Information</h3>
             <ul class="footer__ul">
-              <li class="footer__item"><a href="#" class="footer__link">Terms & Conditions</a></li>
-              <li class="footer__item"><a href="#" class="footer__link">Disclaimer</a></li>
-              <li class="footer__item"><a href="#" class="footer__link">Cancellation policy</a></li>
-              <li class="footer__item"><a href="#" class="footer__link">Privacy</a></li>
+              <li class="footer__item">
+                <a href="#" class="footer__link">Terms & Conditions</a>
+              </li>
+              <li class="footer__item">
+                <a href="#" class="footer__link">Disclaimer</a>
+              </li>
+              <li class="footer__item">
+                <a href="#" class="footer__link">Cancellation policy</a>
+              </li>
+              <li class="footer__item">
+                <a href="#" class="footer__link">Privacy</a>
+              </li>
             </ul>
           </div>
           <!-- /.footer__list -->
           <div class="footer__contact-details">
             <h3 class="footer__title footer__title--mb-3">Contact Details</h3>
-            <p class="footer__text">Feel free to contact us by phone, email or by our contact form</p>
+            <p class="footer__text">
+              Feel free to contact us by phone, email or by our contact form
+            </p>
             <ul class="footer__ul">
               <li class="footer__item footer__item--mb-2">
                 <div class="footer__icon-wrapper">
-                  <img class="footer__icon" src="img/map-marker.svg" alt="Icon: map">
+                  <img
+                    class="footer__icon"
+                    src="img/map-marker.svg"
+                    alt="Icon: map"
+                  />
                 </div>
                 <!-- /.footer__icon-wrapper -->
-                9748 Blossom Hill Rd undefined Lansing,  Idaho 68545 United States
+                9748 Blossom Hill Rd undefined Lansing, Idaho 68545 United
+                States
               </li>
               <li class="footer__item footer__item--mb-2">
                 <div class="footer__icon-wrapper">
-                  <img class="footer__icon" src="img/contact-phone-call.svg" alt="Icon: phone">
+                  <img
+                    class="footer__icon"
+                    src="img/contact-phone-call.svg"
+                    alt="Icon: phone"
+                  />
                 </div>
                 <!-- /.footer__icon-wrapper -->
-                Tel (business hours) : 269 1500 <br>
-                Tel (hotline) Monday - Saturday: 52-56-61-38 (08:00 am – 20:00 pm) <br>
+                Tel (business hours) : 269 1500 <br />
+                Tel (hotline) Monday - Saturday: 52-56-61-38 (08:00 am – 20:00
+                pm) <br />
                 Tel (hotline) Sunday: 52-56-61-38 (08:00 am – 14:00 pm)
               </li>
               <li class="footer__item footer__item--mb-2">
                 <div class="footer__icon-wrapper">
-                  <img class="footer__icon" src="img/email.svg" alt="Icon: email">
+                  <img
+                    class="footer__icon"
+                    src="img/email.svg"
+                    alt="Icon: email"
+                  />
                 </div>
                 <!-- /.footer__icon-wrapper -->
                 cherly.lawson@example.com
@@ -858,29 +951,31 @@
             </h3>
             <form action="send.php" method="POST" class="footer__form form-my">
               <div class="footer__input-group">
-                <input 
-                type="text" 
-                class="input footer__input" 
-                placeholder="Your Full Name*"
-                name="name"
-                required
+                <input
+                  type="text"
+                  class="input footer__input"
+                  placeholder="Your Full Name*"
+                  name="name"
+                  required
                 />
               </div>
               <!-- /.footer__input-group -->
               <div class="footer__input-group">
-                <input 
-                type="tel" 
-                class="input footer__input" 
-                placeholder="Phone Number*"
-                data-mask="(000) 000-0000"
-                name="phone"
-                required
+                <input
+                  type="tel"
+                  class="input footer__input"
+                  placeholder="Phone Number*"
+                  data-mask="(000) 000-0000"
+                  name="phone"
+                  required
                 />
               </div>
               <!-- /.footer__input-group -->
-              <textarea class="message footer__message" 
+              <textarea
+                class="message footer__message"
                 placeholder="Message"
-                name="message"></textarea>
+                name="message"
+              ></textarea>
               <button class="button footer__button" type="submit">Send</button>
               <span class="footer__info">* Required Fields</span>
             </form>
@@ -896,38 +991,43 @@
       <!-- /.modal__overlay -->
       <div class="modal__dialog">
         <a href="#" class="modal__close">
-          <img src="img/close.svg" alt="Icon: close">
+          <img src="img/close.svg" alt="Icon: close" />
         </a>
         <h3 class="modal__title modal__title--mb-3">
-              Booking
-            </h3>
-            <form action="send.php" method="POST" class="modal__form form-my">
-              <input 
-                type="text" 
-                class="input modal__input" 
-                placeholder="Your Full Name*"
-                name="name"
-                required
-                minlength="2">
-              <input 
-                type="tel" 
-                class="input modal__input" 
-                placeholder="Phone Number*"
-                data-mask="(000) 000-0000"
-                name="phone"
-                required>
-              <input 
-                type="email" 
-                class="input modal__input" 
-                placeholder="Your Email*"
-                name="email"
-                required>
-              <textarea class="message modal__message" 
-                placeholder="Message"
-                name="message"></textarea>
-              <button class="button modal__button" type="submit">Send</button>
-              <span class="modal__info">* Required Fields</span>
-            </form>
+          Booking
+        </h3>
+        <form action="send.php" method="POST" class="modal__form form-my">
+          <input
+            type="text"
+            class="input modal__input"
+            placeholder="Your Full Name*"
+            name="name"
+            required
+            minlength="2"
+          />
+          <input
+            type="tel"
+            class="input modal__input"
+            placeholder="Phone Number*"
+            data-mask="(000) 000-0000"
+            name="phone"
+            required
+          />
+          <input
+            type="email"
+            class="input modal__input"
+            placeholder="Your Email*"
+            name="email"
+            required
+          />
+          <textarea
+            class="message modal__message"
+            placeholder="Message"
+            name="message"
+          ></textarea>
+          <button class="button modal__button" type="submit">Send</button>
+          <span class="modal__info">* Required Fields</span>
+        </form>
       </div>
       <!-- /.modal__dialog -->
     </div>
@@ -940,6 +1040,7 @@
     <script src="js/parallax.min.js"></script>
     <script src="js/jquery.validate.min.js"></script>
     <script src="js/jquery.mask.min.js"></script>
+    <script src="js/aos.js"></script>
     <script src="js/main.js"></script>
   </body>
 </html>
